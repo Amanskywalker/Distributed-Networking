@@ -1,11 +1,14 @@
 // server example
 
 // libraries
-#include <stdio.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
 #include <arpa/inet.h>
+#include <netinet/in.h>
+#include <stdio.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+
+// user defined libraries
+#include "echo_common.c"
 
 #define SERV_TCP_PORT 9876
 #define SERV_HOST_ADDR "192.168.10.1"
